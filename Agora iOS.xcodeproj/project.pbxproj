@@ -13,6 +13,16 @@
 		385845122427A98000797816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385845112427A98000797816 /* Assets.xcassets */; };
 		385845152427A98000797816 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385845142427A98000797816 /* Preview Assets.xcassets */; };
 		385845182427A98000797816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385845162427A98000797816 /* LaunchScreen.storyboard */; };
+		385845262427B7F500797816 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385845252427B7F500797816 /* Home.swift */; };
+		385845282427BF7900797816 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385845272427BF7900797816 /* Buttons.swift */; };
+		38600A54242B0A3B001D03C6 /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38600A53242B0A3B001D03C6 /* FloatingLabelTextField.swift */; };
+		38600A5D242B8BD9001D03C6 /* DatePick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38600A5C242B8BD9001D03C6 /* DatePick.swift */; };
+		38600A62242C6CD0001D03C6 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38600A61242C6CD0001D03C6 /* TabView.swift */; };
+		38600A64242C6FCA001D03C6 /* AddCandidates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38600A63242C6FCA001D03C6 /* AddCandidates.swift */; };
+		38600A66242CD782001D03C6 /* VotingAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38600A65242CD782001D03C6 /* VotingAlgorithm.swift */; };
+		38600A70242DBD38001D03C6 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38600A6E242DBD38001D03C6 /* Database.xcdatamodeld */; };
+		38600A9F242F0949001D03C6 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38600A9E242F0949001D03C6 /* Toast.swift */; };
+		388E6041242A4E03001FAD58 /* ElectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388E6040242A4E03001FAD58 /* ElectionDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		385845142427A98000797816 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		385845172427A98000797816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		385845192427A98000797816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385845252427B7F500797816 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		385845272427BF7900797816 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		38600A53242B0A3B001D03C6 /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
+		38600A5C242B8BD9001D03C6 /* DatePick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePick.swift; sourceTree = "<group>"; };
+		38600A61242C6CD0001D03C6 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		38600A63242C6FCA001D03C6 /* AddCandidates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCandidates.swift; sourceTree = "<group>"; };
+		38600A65242CD782001D03C6 /* VotingAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingAlgorithm.swift; sourceTree = "<group>"; };
+		38600A6F242DBD38001D03C6 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		38600A9E242F0949001D03C6 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		388E6040242A4E03001FAD58 /* ElectionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectionDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +78,13 @@
 			children = (
 				3858450B2427A97900797816 /* AppDelegate.swift */,
 				3858450D2427A97900797816 /* SceneDelegate.swift */,
-				3858450F2427A97900797816 /* ContentView.swift */,
 				385845112427A98000797816 /* Assets.xcassets */,
 				385845162427A98000797816 /* LaunchScreen.storyboard */,
 				385845192427A98000797816 /* Info.plist */,
 				385845132427A98000797816 /* Preview Content */,
+				38600AA0242F7A6C001D03C6 /* Model */,
+				38600A69242DBA8A001D03C6 /* Views */,
+				38600A6A242DBAA8001D03C6 /* ReusableVIews */,
 			);
 			path = "Agora iOS";
 			sourceTree = "<group>";
@@ -73,6 +95,38 @@
 				385845142427A98000797816 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38600A69242DBA8A001D03C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3858450F2427A97900797816 /* ContentView.swift */,
+				385845252427B7F500797816 /* Home.swift */,
+				388E6040242A4E03001FAD58 /* ElectionDetail.swift */,
+				38600A63242C6FCA001D03C6 /* AddCandidates.swift */,
+				38600A65242CD782001D03C6 /* VotingAlgorithm.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		38600A6A242DBAA8001D03C6 /* ReusableVIews */ = {
+			isa = PBXGroup;
+			children = (
+				38600A61242C6CD0001D03C6 /* TabView.swift */,
+				38600A5C242B8BD9001D03C6 /* DatePick.swift */,
+				38600A53242B0A3B001D03C6 /* FloatingLabelTextField.swift */,
+				385845272427BF7900797816 /* Buttons.swift */,
+				38600A9E242F0949001D03C6 /* Toast.swift */,
+			);
+			path = ReusableVIews;
+			sourceTree = "<group>";
+		};
+		38600AA0242F7A6C001D03C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38600A6E242DBD38001D03C6 /* Database.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +145,8 @@
 			dependencies = (
 			);
 			name = "Agora iOS";
+			packageProductDependencies = (
+			);
 			productName = "Agora iOS";
 			productReference = 385845082427A97900797816 /* Agora iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +175,8 @@
 				Base,
 			);
 			mainGroup = 385844FF2427A97900797816;
+			packageReferences = (
+			);
 			productRefGroup = 385845092427A97900797816 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +204,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38600A9F242F0949001D03C6 /* Toast.swift in Sources */,
+				385845282427BF7900797816 /* Buttons.swift in Sources */,
+				38600A54242B0A3B001D03C6 /* FloatingLabelTextField.swift in Sources */,
 				3858450C2427A97900797816 /* AppDelegate.swift in Sources */,
+				388E6041242A4E03001FAD58 /* ElectionDetail.swift in Sources */,
 				3858450E2427A97900797816 /* SceneDelegate.swift in Sources */,
+				38600A66242CD782001D03C6 /* VotingAlgorithm.swift in Sources */,
+				385845262427B7F500797816 /* Home.swift in Sources */,
 				385845102427A97900797816 /* ContentView.swift in Sources */,
+				38600A64242C6FCA001D03C6 /* AddCandidates.swift in Sources */,
+				38600A62242C6CD0001D03C6 /* TabView.swift in Sources */,
+				38600A70242DBD38001D03C6 /* Database.xcdatamodeld in Sources */,
+				38600A5D242B8BD9001D03C6 /* DatePick.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +410,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38600A6E242DBD38001D03C6 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38600A6F242DBD38001D03C6 /* Database.xcdatamodel */,
+			);
+			currentVersion = 38600A6F242DBD38001D03C6 /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 385845002427A97900797816 /* Project object */;
 }
